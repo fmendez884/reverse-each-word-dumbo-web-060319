@@ -1,4 +1,4 @@
-def reverse_collect_word(string)
+def reverse_each_word(string)
 y = string.split(' ')
   y.collect do |x| 
     x.reverse!
